@@ -28,7 +28,7 @@ def generate_page_one(name, address, capacity):
     # Left Column: Branding
     c.setFillColor(black)
     c.setFont("Helvetica-Bold", 16)
-    c.drawString(3.0*inch, height/2 - 1*inch, "Shri Swami Solar")
+    c.drawString(0.5*inch, height/2 - 1*inch, "Shri Swami Solar")
     c.setFillColor(HexColor("#999999"))
    # c.drawString(1.7*inch, height/2 - 1*inch, "ENERGY")
     
