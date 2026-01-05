@@ -27,7 +27,7 @@ def generate_page_one(name, address, capacity):
 
     # Left Column: Branding
     c.setFillColor(black)
-    c.setFont("Helvetica-Bold", 16)
+    c.setFont("Helvetica-Bold", 20)
     c.drawString(0.5*inch, height/2 - 1*inch, "Shri Swami Solar")
     c.setFillColor(HexColor("#999999"))
    # c.drawString(1.7*inch, height/2 - 1*inch, "ENERGY")
@@ -44,7 +44,7 @@ def generate_page_one(name, address, capacity):
     c.line(2.8*inch, height/2 - 0.7*inch, 2.8*inch, 1.8*inch)
 
     # Right Column: Proposal Details
-    c.setFont("Helvetica-Bold", 28)
+    c.setFont("Helvetica-Bold", 16)
     c.drawString(3.0*inch, height/2 - 1*inch, "SOLAR PROPOSAL")
     
     c.setFont("Helvetica", 14)
